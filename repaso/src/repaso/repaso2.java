@@ -32,7 +32,14 @@ public class repaso2 {
 		System.out.println("Tu matriz es: ");
 		Matrices.mostrar_matriz(matriz);
 		
-		
+		for (int i=0; i<matriz.length; i++) {
+			for (int j=0; i<matriz[0].length; j++) {
+				if (matriz[i][j]!=0)
+					System.out.println("La matriz no es dispersa");
+				
+			}
+				
+		}
 					
 			}
 		}
